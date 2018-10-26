@@ -2,7 +2,7 @@ from django.db import models
 from django.utils import timezone
 
 
-""" class Post(models.Model):
+class Post(models.Model):
     ESTADO = (
         ("Espera","Espera"),
         ("Adoptado","Adoptado"),
@@ -22,4 +22,4 @@ from django.utils import timezone
         self.save()
 
     def __str__(self):
-        return self.Nombre """
+        return self.Nombre
